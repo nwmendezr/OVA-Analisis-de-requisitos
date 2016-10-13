@@ -301,7 +301,7 @@ h3{
 	text-align: center;
 }
 header{
-	width: 1000px;
+	width: auto;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
 }
@@ -389,4 +389,3 @@ p {
 	font-weight: normal;
 	color: #333;
 }
-
