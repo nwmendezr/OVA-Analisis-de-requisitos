@@ -396,8 +396,32 @@ p{
 .menu:active{
 	color: #003F5E;
 	text-decoration: none;
+
+}
+.first:link{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	opacity: 0;
+}
+.first:hover{
+	display: block;
+	color: #FF6600;
+	text-decoration: none;
+	opacity: 1;
 }
 
+.first:visited{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0;
+}
+.first:active{
+	color: #003F5E;
+	text-decoration: none;
+	opacity: 0;
+}
 /*SEUDO CLASES*/
 p {
 	font-size: 12px;
@@ -405,7 +429,7 @@ p {
 	color: #333;
 }
 
-
+/*codigo para pagina de inicio*/
 #tematica{
 	background: #fff;
 	height: 250px;
@@ -513,3 +537,4 @@ img.cinco{
 	border-radius: 5px;
 
 }
+/*codigo para pagina de lecturas*/
