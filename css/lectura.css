@@ -15,10 +15,10 @@ ul.submenu {
 .menu:hover ul.submenu a.submenu:visited,
 .menu:hover ul.submenu li {
  float: none;
- color: orange;
+ color: #fff;
  text-decoration: none;
  margin: -5px;
- font-size: 12pt;
+ font-size: 10pt;
  border: 0;
 }
 
@@ -27,7 +27,7 @@ ul.menu {
 }
 
 .menu {
-	font-size: 12pt;
+	font-size: 11pt;
 }
 
 div#menuContainer {
