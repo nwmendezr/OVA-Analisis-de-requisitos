@@ -73,7 +73,7 @@
             #apDiv8 {
 	position: absolute;
 	width: 259px;
-	height: 200px;
+	height: 115px;
 	z-index: 1;
 	left: 731px;
 	top: 503px;
@@ -264,6 +264,16 @@ div {
 	left: 516px;
 	top: 1012px;
 }
+
+ #apDiv28 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: center;
+	border-top: #006680;
+}
+
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -417,6 +427,24 @@ p.one{
 	text-decoration: none;
 
 }
+
+.menu li:hover ul {
+        display:block;
+        position: absolute;
+        padding: 0;
+        margin:-16px;
+        margin-top:10px;
+        width: 10px;
+        float: none;
+                }
+.menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:130px;
+        }
+
+
+
 .first:link{
 	display: block;
 	color: #FFF;
