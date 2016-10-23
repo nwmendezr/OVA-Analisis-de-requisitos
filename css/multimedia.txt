@@ -1,0 +1,35 @@
+ul.menu:hover ul.submenu {
+	list-style-type: none;
+	white-space: nowrap;
+	display: block;
+	position: relative; 
+	padding: 5px;
+	clear: both;
+}
+
+ul.submenu {
+	display: none;
+}
+
+.menu:hover ul.submenu a.submenu,
+.menu:hover ul.submenu a.submenu:visited,
+.menu:hover ul.submenu li {
+ float: none;
+ color: #fff;
+ text-decoration: none;
+ margin: -5px;
+ font-size: 10pt;
+ border: 0;
+}
+
+ul.menu {
+	margin-left: -500px;
+}
+
+.menu {
+	font-size: 11pt;
+}
+
+div#menuContainer {
+  display: inline-block;
+}
